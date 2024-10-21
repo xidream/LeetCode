@@ -1,10 +1,10 @@
-# Longest Substring Without Repeating Characters
+# 3. Longest Substring Without Repeating Characters
 
-Given a string `s`, find the length of the **longest**
+<a href="https://github.com/whateverzpy/LeetCode-Markdown"><img src="https://img.shields.io/badge/Markdown-FFA116?logo=leetcode&labelColor=555"/></a>
+![](https://img.shields.io/badge/Difficulty-Medium-orange)
+![](https://img.shields.io/badge/Topics-Hash_Table,_String,_Sliding_Window-blue)
 
-**substring**
-
-without repeating characters\.
+Given a string `s`, find the length of the **longest** **substring** without repeating characters\.
 
 <br>
 
