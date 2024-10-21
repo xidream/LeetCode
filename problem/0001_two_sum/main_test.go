@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/xidream/leetcode/problems/0001_two_sum"
+	. "github.com/xidream/leetcode/problem/0001_two_sum"
 )
 
 var _ = DescribeTable("TwoSum",
