@@ -2,7 +2,7 @@
 
 <a href="https://github.com/whateverzpy/LeetCode-Markdown"><img src="https://img.shields.io/badge/Markdown-FFA116?logo=leetcode&labelColor=555"/></a>
 ![](https://img.shields.io/badge/Difficulty-Easy-green)
-![](https://img.shields.io/badge/Topic-Array,_Hash_Table-blue)
+![](https://img.shields.io/badge/Topics-Array,_Hash_Table-blue)
 
 Given an array of integers `nums` and an integer `target`, return _indices of the two numbers such that they add up to `target`_\.
 
