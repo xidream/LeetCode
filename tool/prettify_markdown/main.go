@@ -9,6 +9,7 @@ import (
 	"strings"
 
 	"github.com/sirupsen/logrus"
+	xflag "github.com/xidream/go/flag"
 )
 
 const (
@@ -44,18 +45,15 @@ func main() {
 
 	b, err := os.ReadFile(*path)
 	if err != nil {
-		flag.Usage()
-		logrus.Fatal(err)
+		xflag.Fatal(err)
 	}
 
 	if *number == 0 {
-		flag.Usage()
-		logrus.Fatal("missing -number")
+		xflag.Fatal("missing -number")
 	}
 
 	if !slices.Contains(difficulties, *difficulty) {
-		flag.Usage()
-		logrus.Fatal("invalid -difficulty: ", *difficulty)
+		xflag.Fatal("invalid -difficulty: ", *difficulty)
 	}
 
 	var (
